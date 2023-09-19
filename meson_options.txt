@@ -1,4 +1,5 @@
 option('udev_dir', type: 'string', value: '', description: 'Absolute path of the udev base directory')
+option('gnome_session_ctl_path', type: 'string', value: '', description: 'Absolute path to the gnome-session-ctl binary')
 option('systemd', type: 'boolean', value: true, description: 'Enable systemd integration')
 
 option('alsa', type: 'boolean', value: true, description: 'build with ALSA support (not optional on Linux platforms)')
